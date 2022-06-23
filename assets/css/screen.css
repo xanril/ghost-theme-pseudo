@@ -38,9 +38,11 @@ production stylesheet in assets/built/screen.css
     --color-midgrey: #738a94;
     --color-lightgrey: #f1f1f1;
     --color-secondary-text: #979797;
+    --color-post-body-text: #BBBBBB;
     --color-border: #e1e1e1;
     --color-wash: #e5eff5;
     --color-darkmode: #151719;
+    --color-orange: #D95736;
 
     /*
     An accent color is also set by Ghost itself in
@@ -734,6 +736,10 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     font-weight: 800;
 }
 
+.post-card-title .post-title-hashtag {
+    color: var(--color-orange);
+}
+
 .post-card-content-link:hover .post-card-title {
     opacity: 0.9;
 }
@@ -951,6 +957,10 @@ make sure this only happens on large viewports / desktop-ish devices.
     font-weight: 800;
     line-height: 1;
     color: var(--color-darkgrey);
+}
+
+.article-title .article-title-hashtag {
+    color: var(--color-orange);
 }
 
 .has-serif-title .article-title {
