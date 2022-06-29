@@ -42,7 +42,7 @@ production stylesheet in assets/built/screen.css
     --color-border: #e1e1e1;
     --color-wash: #e5eff5;
     --color-darkmode: #151719;
-    --color-orange: #D95736;
+    --color-orange: #FF7D06;
 
     /*
     An accent color is also set by Ghost itself in
@@ -169,6 +169,13 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     padding: 0;
     font-size: 5rem;
     font-weight: 800;
+}
+
+.site-title-gradient {
+    background: -webkit-linear-gradient(60deg, #80c909, #A5F3FC, #1470e0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .has-serif-title .site-title {
