@@ -26,7 +26,7 @@ into the {body} of the default.hbs template --}}
                 {{#if @site.logo}}
                     <img class="site-logo" src="{{@site.logo}}" alt="{{@site.title}}">
                 {{else}}
-                    <h1 class="site-title site-title-gradient"> QQQ {{@site.title}}</h1>
+                    <h1 class="site-title site-title-gradient">{{@site.title}}</h1>
                 {{/if}}
             {{/unless}}
             {{#if @site.description}}
